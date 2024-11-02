@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* Centraliza o texto */
+    background-image: url(../imagens/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.whatsapp-img {
+    width: 50px; /* Ajuste o tamanho da imagem */
+    height: auto; /* Mantém a proporção */
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+}
+button {
+    background-color: rgb(8, 8, 10); /* Cor do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 15px; /* Arredonda os cantos */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+button a {
+    color: white; /* Cor do texto dentro do botão */
+    text-decoration: none; /* Remove o sublinhado */
+}
+p{
+    color: aliceblue;
+}
+h2{
+    color: rgb(255, 255, 255);
+}

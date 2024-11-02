@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* Centraliza o texto */
+    background-image: url(../imagens/1.png);
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-repeat: no-repeat;
+    background-position: center top; /* Centraliza horizontalmente e afasta do topo */
+    padding-top: 50px; /* Ajusta a distância do topo */
+}
+
+nav {
+    
+    
+background-color: #333; /* Cor de fundo da barra */
+    padding: 10px 0; /* Espaçamento interno */
+    
+    
+position: fixed; /* Fixa a barra no topo */
+    top: 0; /* Alinha ao topo da página */
+    
+    
+left: 0; /* Alinha à esquerda */
+    width: 100%; /* Largura total da tela */
+    
+    
+z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+    margin: 0; /* Remove margens para estar na borda */
+}
+
+nav button {
+    margin: 0 10px; /* Espaçamento entre os botões */
+}
+
+nav button a {
+    color: rgb(0, 0, 0); /* Cor do texto dos botões */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+button {
+    background-color: rgb(255, 255, 255); /* Cor do botão */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 15px; /* Arredonda os cantos */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+button a {
+    color: rgb(0, 0, 0); /* Cor do texto dentro do botão */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+p {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}

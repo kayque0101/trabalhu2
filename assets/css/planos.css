@@ -1,0 +1,58 @@
+body {
+    background-image: url(../imagens/1.png);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo na vertical */
+    justify-content: center; /* Centraliza o conteúdo na horizontal */
+    height: 100vh; /* Ocupa a altura total da tela */
+    background-size: cover; /* Ajustado para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+}
+h2 {
+    color: rgb(0, 0, 0);
+}
+p {
+    color: rgb(0, 0, 0);
+}
+.plans-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os planos se movam para a próxima linha */
+    justify-content: space-between; /* Espaça igualmente os elementos */
+    width: 100%; /* Largura total */
+    max-width: 800px; /* Largura máxima para melhor layout */
+    margin-top: 20px; /* Espaçamento acima da lista de planos */
+}
+.plano {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    flex: 1 1 45%; /* Cresce, encolhe e ocupa 45% da largura */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar os planos */
+    transition: transform 0.2s; /* Efeito de transição ao passar o mouse */
+}
+.plano:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+}
+nav button {
+    margin: 0 10px; /* Espaçamento entre os botões */
+}
+nav button a {
+    color: rgb(0, 0, 0); /* Cor do texto dos botões */
+    text-decoration: none; /* Remove o sublinhado */
+}
+button {
+    background-color: rgb(4, 4, 4); /* Cor do botão */
+    color: rgb(254, 254, 254); /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 15px; /* Arredonda os cantos */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+button a {
+    color: rgb(0, 0, 0); /* Cor do texto dentro do botão */
+    text-decoration: none; /* Remove o sublinhado */
+}
